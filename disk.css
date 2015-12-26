@@ -1,0 +1,339 @@
+ *{
+  margin: 0px;
+  margin: 0px;
+ }
+ html {
+  background-color: grey ;
+ }
+
+ /* ============================================ styling the body ============================== */
+ body {
+  font-family: verdana, arial, "sans serif";
+  width: 70% ;
+  margin: 0px auto;
+  background-color: white ;
+  box-shadow: 3px 3px 2px gold;
+ }
+
+ /* =========== End of body styling ============= */
+
+ /* ============================================ styling the header ============================== */
+  .header {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white ;
+  }
+
+  .logo {
+    width: 100% ;
+    height: 150px ;
+   
+    
+  }
+  .logo img {
+    width: 100px ;
+    height: 100px ;
+    border-radius: 50px;
+    margin: 25px 20px 25px 20px;
+    float: left;
+  }
+
+  .logo h1 {float: left;
+    margin-top: 50px;
+    font-size: 30px;
+    width: 60% ;
+    
+  
+  }
+  .logo h3 {
+  	width: 60% ;
+    font-size: 25px ;
+    color: white ;
+   
+  }
+
+  .logo h1:hover, .logo h3:hover {
+    color: yellow;
+  }
+
+  .nav
+ {
+   clear: both;
+   width: 100%; 
+  margin-bottom: 50px ;
+   padding: 0px ;
+   
+  
+}
+  .nav img {
+  	display: none;
+ }
+ .nav ul {
+  width: 50%;
+  float: right;
+ }
+
+  .nav li {
+    width: 25% ;
+    height: 50px ;
+    list-style: none;
+    background-color: red;
+    text-align: center;
+    font-size: 15px ;
+    line-height: 45px;
+    float: left;
+    text-shadow : 3px 3px 2px black;
+    opacity: 0.7 ;
+    
+    
+  }
+  li.red {
+    background-color: red;
+  }
+   li.orange {
+    background-color: orange;
+  }
+   li.blue {
+    background-color: blue;
+  }
+   li.green {
+    background-color: green;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: white ;
+    display: block;
+  }
+  .nav li:hover {
+    opacity: 1.0 ;
+    
+  }
+
+  /* ============================================ styling the main div ============================== */
+    .main {
+      clear: both;
+      width: 100%;
+      margin-top: 50px ;
+      margin-bottom: 100px;
+      
+    }
+    .main img {
+     width: 400px ;
+     height: 200px ;
+      margin-top: 100px;
+      margin-left: 25px ;
+    }
+    .main h3 {
+      margin: 50px 10px 10px 25px;
+      color: red ;
+    }
+    .main p {
+      text-align: justify;
+      padding: 20px;
+      margin: 5px ;
+    }
+    .main h1 {
+      font-size: 20px;
+      margin: 30px 0px 30px  25px ;
+      color: red ;
+    }
+     .formHeader {
+      margin-left: 50px ;
+      color: red ;
+      font-size: 18px;
+    }
+   /* =========== End of main div styling ============= */
+
+   /* ============================================ styling the footer ============================== */
+
+  .footer {
+    clear: both;
+    width: 100%;
+   height: 550px ;
+    background-color: red;
+    margin-top: 50px;
+    margin-bottom: 0px ;
+  }
+  .socialMedia{
+   clear: both;
+    border-top: 2px solid white ;
+    border-bottom: 2px solid white ;
+    
+    width: 80% ;
+    height: 150px ;
+    margin: 50px auto ;
+
+  }
+  .socialMedia li {
+    list-style: none;
+    float: left;
+    margin: 50px 15px ;
+  }
+  
+
+  .footerNav {
+    width: 35% ;
+    float: left;
+    margin-top: 50px ;
+    margin-left: 10%;
+   
+    
+  }
+  .footerNav li {
+    text-align: left;
+    width: 70% ;
+    padding: 5px ;
+    list-style: none;
+    font-size: 20px;
+
+
+  }
+  .footerside {
+  	
+    width: 40% ;
+    float: right;
+    margin-top: 50px ;
+    margin-bottom: 50px ;
+    margin-right: 13%;
+    
+  }
+  .footerside li {
+    text-align: left;
+    width: 70% ;
+    padding: 5px ;
+    list-style: none;
+    font-size: 20px;
+
+
+  }
+  .footer a {
+    text-decoration: none;
+    display: block;
+    color: white ;
+  }
+  .footerNav li:hover, .footerside li:hover {
+    border-bottom: 2px solid white ;
+  }
+
+  .footer img {
+    height: 50px;
+    width: 50px;
+  }
+  .footer p {
+    color: lightgrey ;
+    margin: 80px 40% ;
+    font-size: 13px ;
+    text-align: center;
+  }
+
+  /* =========== End of footer styling ============= */
+
+  /* ============================================ styling about me page ============================== */
+
+  
+  
+  /* =========== End styling about page ============= */
+
+  /* ============================================ styling slide  page ============================== */
+
+  .slide {
+    clear: both;
+    width: 800px;
+    margin: 30px auto ;
+    position: relative;
+    top: 50px ;
+    bottom: 100px ;
+    padding: 0px ;
+    overflow: hidden;
+  }
+  .slide img {
+    padding: 0px;
+    margin: 0px;
+    width: 800px;
+    height: 300px;
+    position: relative;
+    left: -40px;
+    
+  }
+  .slide li {
+    list-style: none;
+    float: left;
+  }
+  .slide ul {
+    width: 3200px ;
+  }
+  .slide p {
+    font-size: 15px ;
+    width: 700px ;
+    text-align: left;
+    margin: 10px 10px 100px 30px ;
+  }
+  .slide h1 {
+    font-size: 25px ;
+    width: 700px ;
+    color: red ;
+    margin: 30px 10px 20px 30px ;
+  }
+  .slide h3 {
+    width: 700px ;
+    font-size: 12px ;
+    font-weight: italic ;
+    color: lightgrey ;
+    margin: 0px 10px 20px 30px ;
+  }
+  /* =========== End styling slide page ============= */
+
+  /* ============================================ styling contact  page ============================== */
+   
+  
+   .contactForm {
+   
+    width: 40% ;
+    float: left;
+    margin: 0px auto ;
+    margin-left: 5%;
+    font-size: 25px;
+   }
+   
+   .contactForm input {
+    font-size: 15px;
+    width: 90% ;
+    height: 50px ;
+    padding-left: 5px ;
+    margin: 3px 0px ;
+    border-radius: 5px ;
+    background-color: silver ;
+    
+   }
+   .contactForm textarea {
+    width: 90%;
+    height: 100px ;
+    margin: 10px 0px ;
+    padding-left: 5px ;
+    font-size: 15px;
+    border-radius: 5px ;
+    background-color: silver ;
+   }
+   .contactForm button {
+    border-radius: 5px ;
+    font-size: 20px ;
+    padding: 5px ;
+    width: 100px ;
+    margin-top: 20px ;
+    background-color: silver;
+    font-weight: bold ;
+   }
+
+   .google-map {
+   	float: left;
+    width: 50%;
+   margin-left: 25px ;
+    margin-bottom: 100px ;
+   }
+
+
+ 
+  /* =========== End styling about page ============= */
+
